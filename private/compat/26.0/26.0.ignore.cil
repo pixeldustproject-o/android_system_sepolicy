@@ -16,8 +16,11 @@
     mediaprovider_tmpfs
     netd_stable_secret_prop
     package_native_service
+    substratum_service
     sysfs_fs_ext4_features
     system_net_netd_hwservice
+    theme_data_file
+    theme_prop
     thermal_service
     thermalcallback_hwservice
     thermalserviced
