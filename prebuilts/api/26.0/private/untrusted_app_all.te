@@ -98,6 +98,9 @@ allow untrusted_app_all preloads_media_file:dir r_dir_perms;
 allow untrusted_app_all preloads_media_file:file r_file_perms;
 allow untrusted_app_all preloads_data_file:dir search;
 
+# Expand b/34115651 fix
+get_prop(untrusted_app_25, net_dns_prop)
+
 # Allow untrusted apps read / execute access to /vendor/app for there can
 # be pre-installed vendor apps that package a library within themselves.
 # TODO (b/37784178) Consider creating  a special type for /vendor/app installed
